@@ -1,5 +1,10 @@
 package domain;
 
+//Book domain class
+//Author:
+//Date:
+
+
 public class Book {
     private final String isbn;
     private final String title;

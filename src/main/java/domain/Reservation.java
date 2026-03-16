@@ -1,7 +1,10 @@
 /* Reservation.java
 
 */
-//Abulele Ntwanambi 218276400
+//Reservation domain class
+//Author: Abulele Ntwanambi 218276400
+//Date: 16 March 2026
+
 package domain;
 
 

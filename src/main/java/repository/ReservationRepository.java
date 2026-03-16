@@ -7,5 +7,5 @@ package repository;
 
 import domain.Reservation;
 
-public interface ReservationRepository extends IRepository<Reservation> {
+public interface ReservationRepository extends IRepository<Reservation, String> {
 }
