@@ -8,11 +8,12 @@ package factory;
 import domain.Loan;
 import java.time.LocalDate;
 
+<<<<<<< 222765208
 public class LoanFactory {
-    public static Loan createloan(String loanId, LocalDate isssueDate, localDate dueDate, localDate returnDate) {
+    public static Loan createLoan(String loanId, LocalDate issueDate, LocalDate dueDate, localDate returnDate) {
         return new Loan.Builder()
                 .setLoanId(loanId)
-                .setIsshueDate(isssueDate)
+                .setIssueDate(isssueDate)
                 .setDueDate(dueDate)
                 .setReturnDate(returnDate)
                 .build();

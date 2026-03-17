@@ -5,9 +5,12 @@ package domain;
  * 222765208
  */
 import java.time.LocalDate;
+import java.util.Objects;
 
-public class Loan {
+public class Loan
+{
 
+<<<<<<< 222765208
     private String loanId;
     private LocalDate issueDate;
     private LocalDate dueDate;
@@ -77,3 +80,6 @@ public class Loan {
         }
     }
 }
+=======
+}
+>>>>>>> main
